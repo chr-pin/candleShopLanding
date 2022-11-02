@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/candles.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    background-color: #f6d49e86;
+    border: 1px solid #e06e02;
+    color: #36424f;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+.intro-image__text a:hover {
+    transform: scale(1.1);
+}
+
+.intro-text {
+    background-color: rgb(207, 150, 65);
+    display:flex;
+    height: 400px;
+    margin-top: -4rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15rem;
+    clip-path: polygon(34% 6%, 57% 0, 100% 6%, 100% 81%, 0 100%, 0 0);
+   
+  
+}
+
+.intro-text__textbox h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px rgb(68, 48, 48), 0 0 5px #000;
+
+
+}
+
+.intro-text__textbox p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+   
+}
+
+.packaging-image {
+
+    background-attachment: fixed;
+    background-image: url(../img/packing.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5rem;
+}
+
+.packaging-image__text {
+    background-color: rgba(207, 150, 65, 0.616);
+    border: 1px solid #66766c;
+    color: #e7d3c9;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 0.8rem;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;   
+
+}
+.packaging-image__text a{
+    text-decoration: none;
+    color: #e7d3c9;
+}
+
+.packaging-image__text:hover {
+    transform: scale(1.1);
+
+}
+
+.packaging-text {
+    background-color: rgb(207, 150, 65);
+    display:flex;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.packaging_text__textbox {
+
+    width: 900px;
+}
+
+
+.packaging_text__textbox h3 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px rgb(68, 48, 48), 0 0 2px #000;
+
+}
+
+.packaging_text__textbox p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+   
+
+}
+
+.tutorials-image {
+    
+    background-attachment: fixed;
+    background-image: url(../img/tutorial.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.tutorials-image__text {
+
+    background-color: rgba(207, 150, 65, 0.473);
+    border: 1px solid #413b33;
+    color: #e7d3c9;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;   
+}
+
+.tutorials-image__text a {
+    text-decoration: none;
+    color: #642e12;
+
+}
+
+.tutorials-image__text:hover {
+
+    transform: scale(1.2);
+}
+
+.footer {
+    height: 250px;
+    background-color: #99682e;
+    color: #eed8c3;
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+.contact ul li {
+
+    display: inline-block;
+    margin: 1rem;
+}
+
+.contact ul li a{
+
+    color:#eed8c3;
+    text-decoration: none;
+   
+}
+
+.wrapper {
+    transition: all 0.5s ease-in-out;
+
+}
+
+
+.wrapper:hover {
+    
+    transform: scale(1.2);
+}
+
+.copyright {
+
+    padding-top: 2rem;
+}
+
